@@ -26,6 +26,7 @@ return require('packer').startup(function(use)
     use { "EdenEast/nightfox.nvim" }
     use { "NTBBloodbath/doom-one.nvim" }
 
+    use { "ThePrimeagen/vim-be-good" }
 
 
 
@@ -85,16 +86,6 @@ return require('packer').startup(function(use)
 
             -- see below for full list of optional dependencies 👇
         },
-        config = function()
-              require("obsidian").setup({
-                  workspaces = {
-                      {
-                          name = "vault",
-                          path = "~/vault",
-                      }
-                  },
-              })
-          end,
-        })
-
-    end)
+    })
+end
+)

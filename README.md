@@ -1,16 +1,23 @@
 # Install steps
+
+    install npm
+    install nodejs (maybe)
+
     ## install packer
     ```
         git clone --depth 1 https://github.com/wbthomason/packer.nvim\
- ~/.local/share/nvim/site/pack/packer/start/packer.nvim
+     ~/.local/share/nvim/site/pack/packer/start/packer.nvim
     ```
     source ~/.config/nvim/lua/user/packer.lua
     run PackerSync
 
     ## treesitter needs a c compiler
     ```
-        sudo pacman -S unzip
-        sudo pacman -S clang
+        sudo pacman -S unzip clang
+    ```
+    ## clipboard
+    ```
+        sudo pacman -S xclip
     ```
 
 # Plugins/maps

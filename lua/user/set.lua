@@ -1,6 +1,9 @@
 vim.opt.nu = true
 vim.opt.relativenumber = true
 
+vim.opt.clipboard=unnamed 
+vim.opt.conceallevel = 1
+
 -- time to wait for a mapped sequence to complete (in milliseconds)
 vim.opt.timeoutlen = 500
 
