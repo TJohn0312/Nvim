@@ -21,7 +21,7 @@ vim.opt.wrap = true
 -- instead undotree has acess to tons of undos
 vim.opt.swapfile = false
 vim.opt.backup = false
-vim.opt.undodir = os.getenv("HOME") .. "/.vim/undodir"
+vim.opt.undodir = os.getenv("HOME") .. "/.cache/undodir"
 vim.opt.undofile = true
 
 -- Better hl search
